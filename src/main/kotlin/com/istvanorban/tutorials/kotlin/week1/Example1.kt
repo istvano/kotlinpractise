@@ -23,7 +23,6 @@ val capitalize: (String) -> (String) = { it.capitalize() }
 //function programming
 val capitalizeOther = String::capitalize
 
-
 fun main() {
     simpleFunction()
     functionInFunction()
