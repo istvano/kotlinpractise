@@ -1,0 +1,16 @@
+*.swp
+*.iml
+*.bak
+*.class
+.classpath
+.project
+.settings
+workspace.xml
+.idea/
+.gradle/
+.vscode/
+build/
+target/
+out/
+bin/
+gradle/
