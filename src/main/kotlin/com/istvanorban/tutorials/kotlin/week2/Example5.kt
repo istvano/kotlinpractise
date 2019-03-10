@@ -1,4 +1,4 @@
-package com.istvanorban.tutorials.kotlin.week1
+package com.istvanorban.tutorials.kotlin.week2
 
 import kotlin.system.measureNanoTime
 
@@ -45,25 +45,25 @@ fun main() {
     val time1 = measureNanoTime {
         println(factorialImperative(10))
     }
-    println("Imperative $time1")
+    println("Imperative took $time1 nsec")
 
     val time2 = measureNanoTime {
         println(functionalFactorialWithIf(10))
     }
-    println("recursive with If $time2")
+    println("recursive with If took $time2 nsec")
 
     val time3 = measureNanoTime {
         println(functionalFactorialWithIfOpt(10))
     }
-    println("recursive with if opt $time3")
+    println("recursive with if opt took $time3 nsec")
 
     val time4 = measureNanoTime {
         println(functionalFactorialPattern(10))
     }
-    println("recursive with pattern match $time4")
+    println("recursive with pattern match took $time4 nsec")
 
     val time5 = measureNanoTime {
         println(functionalFactorialPatternOpt(10))
     }
-    println("recursive with pattern match opt $time5")
+    println("recursive with pattern match opt took $time5 nsec")
 }
