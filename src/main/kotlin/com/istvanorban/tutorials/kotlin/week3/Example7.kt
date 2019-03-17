@@ -1,4 +1,4 @@
-package com.istvanorban.tutorials.kotlin.week2
+package com.istvanorban.tutorials.kotlin.week3
 
 // check https://github.com/hemanth/functional-programming-jargon
 

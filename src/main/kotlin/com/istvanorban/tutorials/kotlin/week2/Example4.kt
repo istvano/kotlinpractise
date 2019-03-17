@@ -16,7 +16,7 @@ fun unless(condition: Boolean, block: () -> Unit){
 
 fun main() {
 
-    
+
 
     val sunday = false
     unless(sunday) {
